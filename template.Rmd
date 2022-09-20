@@ -83,7 +83,7 @@ pulse_df
 
 ```{r}
 
-write_csv(lotr_words, file = "Results/lotr_words.csv")
+write_csv(lotr_words, file = "data/Results/lotr_words.csv")
 
 dont_do_this_df = read.csv("data/FAS_litters.csv")
 dont_do_this_df
