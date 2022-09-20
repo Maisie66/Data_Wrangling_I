@@ -13,7 +13,10 @@ library(tidyverse)
 let's import this FAS_liters.csv, using 'readr' package
 
 ```{r}
-read_csv("data/FAS_litters.csv")
+litters_df = read_csv("data/FAS_litters.csv")
+litters_df = janitor::clean_names(litters_df)
+litters_df
+
 ```
 
 # Section 2
