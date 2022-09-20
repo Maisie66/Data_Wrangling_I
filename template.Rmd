@@ -3,12 +3,9 @@ title: "Data Import"
 output: github_document
 ---
 
-I'm an R Markdown document! 
+## Data Import: CSVs
 
-# Section 1
-
-Here's a **code chunk** that samples from 
-a _normal distribution_:
+let's import this FAS_liters.csv
 
 ```{r}
 samp = rnorm(100)
