@@ -19,4 +19,29 @@ litters_df
 
 ```
 
+Look at the data
+
+```{r}
+litters_df
+head(litters_df)
+tail(litters_df)
+```
+
+
+```{r, eval=FALSE}
+View(litters_df)
+#If you have View without eval=FALSE, break the code
+summary(litters_df)
+skimr::skim(litters_df)
+```
+
+`read_csv` options
+
+```{r, eval=FALSE}
+read_csv("data/FAS_litters.csv", na = c("","NA", 999, 88), skip = 2)
+
+```
+
+
+
 # Section 2
