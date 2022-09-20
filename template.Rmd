@@ -3,16 +3,17 @@ title: "Data Import"
 output: github_document
 ---
 
+```{r, message=FALSE}
+library(tidyverse)
+```
+
+
 ## Data Import: CSVs
 
-let's import this FAS_liters.csv
+let's import this FAS_liters.csv, using 'readr' package
 
 ```{r}
-samp = rnorm(100)
-length(samp)
+read_csv("data/FAS_litters.csv")
 ```
 
 # Section 2
-
-I can take the mean of the sample, too!
-The mean is `r mean(samp)`.
